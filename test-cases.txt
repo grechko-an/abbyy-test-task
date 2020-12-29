@@ -1,0 +1,29 @@
+I. getLangs method:
+
+1. Method returns status code 200 and correct response when set valid API key;
+
+2. Method returns code 401 and correct error message when set invalid API key;
+
+3. Method returns code 402 and correct error message when set blocked API key;
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+II. lookup method:
+
+1. Method returns status code 200 and correct response when set mandatory parameters with valid API key;
+
+2. Method returns status code 200 and correct response when set non-mandatory and mandatory parameters with valid API key;
+
+3. Method returns code 401 and correct error message when set mandatory parameters with invalid API key;
+
+4. Method returns code 402 and correct error message when set mandatory parameters with blocked API key;
+
+5. Method returns code 502 and correct error message without "lang" mandatory parameter;
+
+6. Method returns code 502 and correct error message without "text" mandatory parameter;
+
+7. Method returns code 413 and correct error message once maximum text size is exceeded;
+
+8. Method returns code 501 and correct error message once specified translation direction is not supported;
+
+9. Method returns code 403 and correct error message once daily requests limit is exceeded;

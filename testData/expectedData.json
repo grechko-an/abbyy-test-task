@@ -1,0 +1,421 @@
+{
+  "getLangsResponse": {
+    "body": [
+      "be-be",
+      "be-ru",
+      "bg-ru",
+      "cs-cs",
+      "cs-en",
+      "cs-ru",
+      "da-en",
+      "da-ru",
+      "de-de",
+      "de-en",
+      "de-ru",
+      "de-tr",
+      "el-en",
+      "el-ru",
+      "en-cs",
+      "en-da",
+      "en-de",
+      "en-el",
+      "en-en",
+      "en-es",
+      "en-et",
+      "en-fi",
+      "en-fr",
+      "en-it",
+      "en-lt",
+      "en-lv",
+      "en-nl",
+      "en-no",
+      "en-pt",
+      "en-ru",
+      "en-sk",
+      "en-sv",
+      "en-tr",
+      "en-uk",
+      "es-en",
+      "es-es",
+      "es-ru",
+      "et-en",
+      "et-ru",
+      "fi-en",
+      "fi-ru",
+      "fi-fi",
+      "fr-fr",
+      "fr-en",
+      "fr-ru",
+      "hu-hu",
+      "hu-ru",
+      "it-en",
+      "it-it",
+      "it-ru",
+      "lt-en",
+      "lt-lt",
+      "lt-ru",
+      "lv-en",
+      "lv-ru",
+      "mhr-ru",
+      "mrj-ru",
+      "nl-en",
+      "nl-ru",
+      "no-en",
+      "no-ru",
+      "pl-ru",
+      "pt-en",
+      "pt-ru",
+      "ru-be",
+      "ru-bg",
+      "ru-cs",
+      "ru-da",
+      "ru-de",
+      "ru-el",
+      "ru-en",
+      "ru-es",
+      "ru-et",
+      "ru-fi",
+      "ru-fr",
+      "ru-hu",
+      "ru-it",
+      "ru-lt",
+      "ru-lv",
+      "ru-mhr",
+      "ru-mrj",
+      "ru-nl",
+      "ru-no",
+      "ru-pl",
+      "ru-pt",
+      "ru-ru",
+      "ru-sk",
+      "ru-sv",
+      "ru-tr",
+      "ru-tt",
+      "ru-uk",
+      "ru-zh",
+      "sk-en",
+      "sk-ru",
+      "sv-en",
+      "sv-ru",
+      "tr-de",
+      "tr-en",
+      "tr-ru",
+      "tt-ru",
+      "uk-en",
+      "uk-ru",
+      "uk-uk",
+      "zh-ru"
+    ]
+  },
+
+  "lookupResponse": {
+    "head": {},
+    "def": [
+      {
+        "text": "time",
+        "pos": "noun",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "время",
+            "pos": "noun",
+            "gen": "ср",
+            "syn": [
+              { "text": "раз", "pos": "noun", "gen": "м" },
+              { "text": "момент", "pos": "noun", "gen": "м" },
+              { "text": "срок", "pos": "noun", "gen": "м" },
+              { "text": "пора", "pos": "noun", "gen": "ж" },
+              { "text": "период", "pos": "noun", "gen": "м" },
+              { "text": "момент времени", "pos": "noun" }
+            ],
+            "mean": [
+              { "text": "period" },
+              { "text": "once" },
+              { "text": "moment" },
+              { "text": "now" }
+            ],
+            "ex": [
+              {
+                "text": "daylight saving time",
+                "tr": [{ "text": "летнее время" }]
+              },
+              {
+                "text": "take some time",
+                "tr": [{ "text": "занять некоторое время" }]
+              },
+              {
+                "text": "real time mode",
+                "tr": [{ "text": "режим реального времени" }]
+              },
+              {
+                "text": "expected arrival time",
+                "tr": [{ "text": "ожидаемое время прибытия" }]
+              },
+              {
+                "text": "external time source",
+                "tr": [{ "text": "внешний источник времени" }]
+              },
+              { "text": "next time", "tr": [{ "text": "следующий раз" }] },
+              {
+                "text": "initial time",
+                "tr": [{ "text": "начальный момент" }]
+              },
+              {
+                "text": "reasonable time frame",
+                "tr": [{ "text": "разумный срок" }]
+              },
+              { "text": "winter time", "tr": [{ "text": "зимняя пора" }] },
+              {
+                "text": "incubation time",
+                "tr": [{ "text": "инкубационный период" }]
+              }
+            ]
+          },
+          {
+            "text": "час",
+            "pos": "noun",
+            "gen": "м",
+            "mean": [{ "text": "hour" }],
+            "ex": [
+              { "text": "checkout time", "tr": [{ "text": "расчетный час" }] }
+            ]
+          },
+          {
+            "text": "эпоха",
+            "pos": "noun",
+            "gen": "ж",
+            "mean": [{ "text": "era" }]
+          },
+          {
+            "text": "период времени",
+            "pos": "noun",
+            "syn": [{ "text": "промежуток времени", "pos": "noun" }],
+            "mean": [{ "text": "period of time" }]
+          },
+          {
+            "text": "тайм",
+            "pos": "noun",
+            "gen": "м",
+            "mean": [{ "text": "half" }]
+          },
+          {
+            "text": "продолжительность",
+            "pos": "noun",
+            "gen": "ж",
+            "mean": [{ "text": "duration" }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "verb",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "приурочивать",
+            "pos": "verb",
+            "asp": "несов",
+            "syn": [{ "text": "приурочить", "pos": "verb", "asp": "сов" }],
+            "mean": [{ "text": "date" }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "adjective",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "временной",
+            "pos": "adjective",
+            "mean": [{ "text": "temporary" }],
+            "ex": [{ "text": "time code", "tr": [{ "text": "временной код" }] }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "adverb",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "своевременно",
+            "pos": "adverb",
+            "mean": [{ "text": "in time" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  "lookupResponseWithNonMandatoryParams": {
+    "head": {},
+    "def": [
+      {
+        "text": "time",
+        "pos": "существительное",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "время",
+            "pos": "существительное",
+            "gen": "ср",
+            "syn": [
+              { "text": "раз", "pos": "существительное", "gen": "м" },
+              { "text": "момент", "pos": "существительное", "gen": "м" },
+              { "text": "срок", "pos": "существительное", "gen": "м" },
+              { "text": "пора", "pos": "существительное", "gen": "ж" },
+              { "text": "период", "pos": "существительное", "gen": "м" },
+              { "text": "момент времени", "pos": "существительное" }
+            ],
+            "mean": [
+              { "text": "period" },
+              { "text": "once" },
+              { "text": "moment" },
+              { "text": "now" }
+            ],
+            "ex": [
+              {
+                "text": "daylight saving time",
+                "tr": [{ "text": "летнее время" }]
+              },
+              {
+                "text": "take some time",
+                "tr": [{ "text": "занять некоторое время" }]
+              },
+              {
+                "text": "real time mode",
+                "tr": [{ "text": "режим реального времени" }]
+              },
+              {
+                "text": "expected arrival time",
+                "tr": [{ "text": "ожидаемое время прибытия" }]
+              },
+              {
+                "text": "external time source",
+                "tr": [{ "text": "внешний источник времени" }]
+              },
+              { "text": "next time", "tr": [{ "text": "следующий раз" }] },
+              {
+                "text": "initial time",
+                "tr": [{ "text": "начальный момент" }]
+              },
+              {
+                "text": "reasonable time frame",
+                "tr": [{ "text": "разумный срок" }]
+              },
+              { "text": "winter time", "tr": [{ "text": "зимняя пора" }] },
+              {
+                "text": "incubation time",
+                "tr": [{ "text": "инкубационный период" }]
+              }
+            ]
+          },
+          {
+            "text": "час",
+            "pos": "существительное",
+            "gen": "м",
+            "mean": [{ "text": "hour" }],
+            "ex": [
+              { "text": "checkout time", "tr": [{ "text": "расчетный час" }] }
+            ]
+          },
+          {
+            "text": "эпоха",
+            "pos": "существительное",
+            "gen": "ж",
+            "mean": [{ "text": "era" }]
+          },
+          {
+            "text": "период времени",
+            "pos": "существительное",
+            "syn": [{ "text": "промежуток времени", "pos": "существительное" }],
+            "mean": [{ "text": "period of time" }]
+          },
+          {
+            "text": "тайм",
+            "pos": "существительное",
+            "gen": "м",
+            "mean": [{ "text": "half" }]
+          },
+          {
+            "text": "продолжительность",
+            "pos": "существительное",
+            "gen": "ж",
+            "mean": [{ "text": "duration" }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "глагол",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "приурочивать",
+            "pos": "глагол",
+            "asp": "несов",
+            "syn": [{ "text": "приурочить", "pos": "глагол", "asp": "сов" }],
+            "mean": [{ "text": "date" }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "прилагательное",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "временной",
+            "pos": "прилагательное",
+            "mean": [{ "text": "temporary" }],
+            "ex": [{ "text": "time code", "tr": [{ "text": "временной код" }] }]
+          }
+        ]
+      },
+      {
+        "text": "time",
+        "pos": "наречие",
+        "ts": "taɪm",
+        "tr": [
+          {
+            "text": "своевременно",
+            "pos": "наречие",
+            "mean": [{ "text": "in time" }]
+          }
+        ]
+      }
+    ]
+  },
+
+  "invalidKeyResponse": {
+    "code": 401,
+    "message": "API key is invalid"
+  },
+
+  "blockedKeyResponse": {
+    "code": 402,
+    "message": "API key is blocked"
+  },
+
+  "invalidLangParameterResponse": {
+    "code": 502,
+    "message": "Invalid parameter: lang"
+  },
+
+  "invalidTextParameterResponse": {
+    "code": 502,
+    "message": "Invalid parameter: text"
+  },
+
+  "invalidLangDirectionResponse": {
+    "code": 501,
+    "message": "The specified language is not supported"
+  },
+
+  "overlimitedTextResponse": {
+    "code": 413,
+    "message": "The text size exceeds the maximum"
+  }
+
+}
